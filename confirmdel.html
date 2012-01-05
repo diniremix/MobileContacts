@@ -24,34 +24,26 @@
 			<META HTTP-EQUIV="refresh" CONTENT="0; url=http://www.mozilla.org/es-ES/firefox/"> 
 		<![endif]-->
 		
-<!--pag ppal login -->
-<div data-role="login" id="plogin">		
-	<div data-role="header" data-position="inline">				
-		<h1><strong>MobileContacts</strong></h1>	
-		<a href="about.html" data-rel="dialog" data-transition="pop" data-icon="gear" data-theme="e" data-iconpos="right" class="ui-btn-right">Opciones</a>
-		   <select name="cboopc" id="cboopc" data-icon="home" data-theme="a" data-iconpos="right" class="ui-btn-right" data-native-menu="false">
-		      <option value="config">Cofiguraci&oacute;n</option>
-		      <option value="perfil">Perfiles</option>
-		      <option value="about">Acerca de</option>
-		      <option value="donate">Donaciones</option>		     
-		   </select>			
-	</div>	
-	<div data-role="content" data-theme="d">			
-	    	<label for="username"><strong>Usuario:</strong></label>
-	    	<input type="text" name="username" id="username" value="" placeholder="Usuario"/>
-			<br>
-			<label for="pass"><strong>Contrase&ntilde;a:</strong></label>
-	   		<input type="password" name="pass" id="pass" value="" placeholder="Contraseña"/>
-			<div id="logs"></div>
-			<p align="center">
-				<a href="mainpanel.html" id="login_app" data-theme="e" data-role="button" data-inline="true" data-icon="check">Ingresar</a>
-				<a href="http://www.google.com" id="close_app" data-theme="e" data-role="button" data-inline="true" data-icon="back">Salir</a>
-			</p>		
+<!-- /pagina acerca de -->
+<div data-role="about" id="pabout">
+	<div data-role="header" data-theme="e">
+		<h1>MobileContacts</h1>
 	</div>
+	<div data-role="content" data-theme="d">	
+		<h4>MobileContacts V. 0.1</h4>
+		<p><strong>¿Desea eliminar el contacto?</strong></p><p>
+			<p><strong>Nombres: </strong>Diniremix</p>
+			<p><strong>Apellidos: </strong>Immortal</p>
+		</p>		
+		<p align="center">
+				<a href="#" id="login_app" data-theme="e" data-role="button" data-inline="true" data-icon="delete">Eliminar</a>
+				<a href="eliminar.html" id="sclose_app" data-theme="e" data-role="button" data-inline="true" data-icon="refresh">Cancelar</a>
+		</p>
+	</div>	
 	<div data-id="footer" data-role="footer" class="ui-bar" data-position="inline" data-theme="a">
 		<h4>MobileContacts</h4>
 	</div>
 </div>
-<!--pag ppal login -->
+<!-- /pagina acerca de -->
 </body>	
 </html>
