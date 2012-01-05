@@ -1,0 +1,2 @@
+﻿MobileContacts
+MobileContacts con JQuery Mobile permite gestionar contactos de manera sencilla usando Bases de datos locales como SQLite del lado del cliente aprovechando las capacidades de HTML5 para almacenar información de manera local.
