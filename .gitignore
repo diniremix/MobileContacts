@@ -1,2 +1,4 @@
 images/*
 demo.html
+nosqlite.html
+database/db.js
